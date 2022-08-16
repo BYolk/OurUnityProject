@@ -9,18 +9,5 @@ public class Test : MonoBehaviour
     #endregion
 
 
-    private void Update()
-    {
-        Debug.Log("Update");
-    }
-
-    private void FixedUpdate()
-    {
-        Debug.Log("FixedUpdate------------------");
-
-    }
-    public void TestGeneric<T>() where T : MonoBehaviour
-    {
-        
-    }
+    
 }
